@@ -15,7 +15,7 @@ public class DepositAccount extends BankAccount {
 
     @Override
     public String withdraw(double amount) {
-        if ((balance - amount) < debet){
+        if ((balance - amount) < -debet){
             return "Withdrawal would exceed debet limits. Not enough balance.";
         }
         balance -= amount;
