@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         SavingsAccount acc1 = new SavingsAccount("2222", "aaaa", 100, 2.6);
-        DepositAccount acc2 = new DepositAccount("1111", "bbbb", 9, 0);
+        DepositAccount acc2 = new DepositAccount("1111", "bbbb", 9, 2000);
         accounts.add(acc1);
         accounts.add(acc2);
         Scanner sc = new Scanner(System.in);
